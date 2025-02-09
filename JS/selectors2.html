@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #div1 {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border-radius: 8px;
+            border: 2px solid black;
+        }
+
+        #div2 {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            border-radius: 8px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1"> DIV 1</div>
+    <div id="div2"> DIV 2</div>
+    <button id="hide">Hide Div 1</button>
+    <button id="toggle">Show div1-toggle</button>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            let div1 = $("#div1");
+            let div2 = $("#div2");
+            let hidediv1 = $("#hide");
+            let togglediv = $("#toggle");
+            
+            hidediv1.click(function () {
+                div1.hide();
+
+            });
+            togglediv.click(function () {
+                div1.show();
+                div
+            });
+        });
+
+    </script>
+</body>
+
+
+</html>

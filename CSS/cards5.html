@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .star {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            padding: 10px 10px 10px 10px;
+
+        }
+
+        .checked {
+            color: rgb(120, 16, 218);
+
+        }
+
+        .fa {
+            margin-left: 5px;
+        }
+
+        .container {
+            height: 400px;
+            width: 1100px;
+            display: flex;
+        
+            justify-content: center;
+            margin: 50px;
+            padding: 50px;
+        }
+
+        .item {
+            justify-content: center;
+          
+            border-radius: 12px;
+            margin: 10px;
+            width: 250px;
+            height: 350px;
+            box-shadow: -1px 0px 45px -16px rgba(0,0,0,0.57);
+-webkit-box-shadow: -1px 0px 45px -16px rgba(0,0,0,0.57);
+-moz-box-shadow: -1px 0px 45px -16px rgba(0,0,0,0.57);
+        }
+
+        .image-parent {
+            display: flex;
+            height: 35%;
+            width: 100%;
+
+            justify-content: center;
+        }
+
+
+        .image {
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            background-color: rgb(120, 16, 218);
+            height: 100%;
+            width: 100%;
+
+        }
+
+        h1 {
+            margin: 20px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .prem {
+            font-size: 20px;
+            display: flex;
+            margin-top: 40px;
+            justify-content: center;
+            font-family: 'Noto Sans', sans-serif;
+
+        }
+
+        .web {
+            display: flex;
+            margin-top: 7px;
+            justify-content: center;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        .btn {
+            display: flex;
+            margin-top: 5px;
+            justify-content: center;
+        }
+
+        .dp {
+            
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin-top: -50px;
+            margin-left: 72px;
+
+        }
+
+        button {
+            font-family: 'Nunito Sans', sans-serif;
+            height: 30px;
+            width: 90px;
+            border-radius: 20px;
+            color: white;
+            border: none;
+            background-color: rgb(120, 16, 218);
+            margin: 10px;
+        }
+
+        .icon {
+            display: flex;
+            height: 80px;
+            width: 30px;
+            margin-top: 13px;
+            margin-left: 210px;
+            flex-direction: column;
+
+        }
+
+
+        img {
+            margin: 4px;
+            height: 16px;
+            width: 16px;
+            object-fit: cover;
+        }
+        .display{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;border-radius: inherit;
+            border: 2px solid white;
+            border-bottom: 4px solid rgb(120, 16, 218);
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="item">
+            <div class="image-parent">
+                <div class="image">
+                    <div class="icon">
+                        <img src="facebook purple.png" alt="">
+                        <img src="twitter purple.png" alt="">
+                        <img src="github purple.png" alt="">
+                    </div>
+                    <div class="dp"> <img class="display" src="dp2 .jpg" alt=""></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="prem">
+                    <p>Prem Shahi</p>
+                </div>
+                <div class="web">
+                    <p>Web Developer</p>
+                </div>
+
+                <div class="star">
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star fa-lg"></span>
+
+                </div>
+                <div class="btn">
+                    <button>About Me</button>
+                    <button>Hire Me</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="item">
+            <div class="image-parent">
+                <div class="image">
+                    <div class="icon">
+                        <img src="facebook purple.png" alt="">
+                        <img src="twitter purple.png" alt="">
+                        <img src="github purple.png" alt="">
+                    </div>
+                    <div class="dp"> <img class="display" src="dp4.jpg" alt=""></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="prem">
+                    <p>Deepa Chand</p>
+                </div>
+                <div class="web">
+                    <p>Web Developer</p>
+                </div>
+
+                <div class="star">
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star fa-lg"></span>
+
+                </div>
+                <div class="btn">
+                    <button>About Me</button>
+                    <button>Hire Me</button>
+                </div>
+            </div>
+
+        </div>
+
+ <div class="item">
+            <div class="image-parent">
+                <div class="image">
+                    <div class="icon">
+                        <img src="facebook purple.png" alt="">
+                        <img src="twitter purple.png" alt="">
+                        <img src="github purple.png" alt="">
+                    </div>
+                    <div class="dp"> <img class="display" src="dp5.jpg" alt=""></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="prem">
+                    <p>Paraka Shahi</p>
+                </div>
+                <div class="web">
+                    <p>Web Developer</p>
+                </div>
+
+                <div class="star">
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star checked fa-lg"></span>
+                    <span class="fa fa-star fa-lg"></span>
+
+                </div>
+                <div class="btn">
+                    <button>About Me</button>
+                    <button>Hire Me</button>
+                </div>
+            </div>
+
+        </div>
+
+       
+
+           
+
+        </div>
+    </div>
+</body>
+
+</html>

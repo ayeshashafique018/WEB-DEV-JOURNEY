@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding-top: 0px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            margin-top: 20PX;
+            box-shadow: -1px 0px 45px -16px rgba(0, 0, 0, 0.57);
+            -webkit-box-shadow: -1px 0px 45px -16px rgba(0, 0, 0, 0.57);
+            -moz-box-shadow: -1px 0px 45px -16px rgba(0, 0, 0, 0.57);
+            display: flex;
+            height: 500px;
+            width: 800px;
+            border-radius: 18px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .welcome {
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5beab3+35,5beab3+55,58e3ef+100 */
+            background: rgb(91, 234, 179);
+            /* Old browsers */
+            background: -moz-linear-gradient(-45deg, rgb(91, 234, 179) 35%, rgb(91, 234, 179) 55%, rgb(88, 227, 239) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, rgb(91, 234, 179) 35%, rgb(91, 234, 179) 55%, rgb(88, 227, 239) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, rgb(91, 234, 179) 35%, rgb(91, 234, 179) 55%, rgb(88, 227, 239) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5beab3', endColorstr='#58e3ef', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
+
+            color: white;
+            height: inherit;
+            width: 45%;
+            border-top-left-radius: 18px;
+            border-bottom-left-radius: 18px;
+            text-align: center;
+
+        }
+
+        .side1 {
+            margin-top: 161px;
+        }
+
+        .divform {
+            display: flex;
+            width: 55%;
+            height: inherit;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-bottom-right-radius: 18px;
+            border-top-right-radius: 18px;
+            margin-top: 74px;
+        }
+
+
+        .forminput {
+            display: flex;
+            height: 257px;
+            width: 317px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .form {
+            height: 450px;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        input {
+            padding: 0px 20px;
+            font-weight: bold;
+            background-color: whitesmoke;
+            border-color: none;
+            border: 2px solid white;
+            margin: 15px 0px;
+            width: 200px;
+            height: 38px;
+            border-radius: 5px;
+
+        }
+
+        .head {
+            font-size: 14px;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .iconparent {
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+        }
+
+        .iconchild {
+            width: 20px;
+            height: 20px;
+            border: 2px solid whitesmoke;
+            border-radius: 50%;
+            margin: 15px;
+            object-fit: cover;
+
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .welcome h1 {
+            font-size: 25px;
+            font-family: 'Noto Sans', sans-serif;
+
+        }
+
+        button {
+            font-size: 12px;
+            color: white;
+            height: 36px;
+            width: 111px;
+            padding: 10px;
+            border-radius: 18px;
+            border: 2px solid white;
+            padding: 5px;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5beab3+100,d3ebed+100 */
+            background: rgb(91, 234, 179);
+            /* Old browsers */
+            background: -moz-linear-gradient(-45deg, rgb(91, 234, 179) 100%, rgb(211, 235, 237) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, rgb(91, 234, 179) 100%, rgb(211, 235, 237) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, rgb(91, 234, 179) 100%, rgb(211, 235, 237) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5beab3', endColorstr='#d3ebed', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
+
+        }
+
+        .divform p {
+            font-size: 10px;
+            font-family: 'Noto Sans', sans-serif;
+            color: grey;
+
+        }
+
+        .head h1 {
+            color: rgb(55, 235, 166);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+
+            <div class="welcome">
+
+                <div class="side1">
+                    <h1>Welcome Back !</h1>
+                    <br>
+                    <p>to keep connected with us please
+                        <br>
+                        login with your personal info.
+                    </p>
+                    <br>
+                    <button class="signup">SIGN IN</button>
+                </div>
+
+            </div>
+
+            <div class="divform">
+                <div class="form">
+                    <div class="head">
+                        <h1>Create Account</h1>
+                        <div class="iconparent">
+                            <div class="iconchild"> <img class="facebook" src="facebook-app-symbol.png" alt=""></div>
+                            <div class="iconchild"><img src="social g+.png" alt=""></div>
+                            <div class="iconchild"><img src="linkedin (1).png" alt=""></div>
+                        </div>
+                        <p>or use your email for registeration</p>
+                    </div>
+
+                    <div class="forminput">
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="Name"><br>
+                            <input type="text" name="" id="" placeholder="Password"><br>
+                            <input type="text" name="" id="" placeholder="Email"><br>
+                            <div class="btn" style="display: flex; justify-content: center;"></div>
+                            <button class="button">SIGN UP</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

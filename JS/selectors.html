@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor, sit amet conse</p>
+    <p>Lorem ipsum dolor, sit amet conse</p>
+    <p>Lorem ipsum dolor, sit amet conse</p>
+    <p>Lorem ipsum dolor, sit amet conse</p>
+    <p>Lorem ipsum dolor, sit amet conse</p>
+    <button id="colorchange">Change color</button>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+         
+            let btn =$("#colorchange");
+            btn.click(function () {
+                $("p").css("color", "blue");
+            });
+        })
+    </script>
+</body>
+
+</html>
